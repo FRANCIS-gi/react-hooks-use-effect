@@ -1,8 +1,4 @@
-import React, { useState, useEffect } from "react"; //To use the useEffect hook, we must first import it:
-
-// WARNING: this useEffect will run in an infinite loop!
-// to fix, pass an empty array as the second argument for useEffect
-
+import React, { useState, useEffect } from "react";
 
 function DogPics() {
   const [images, setImages] = useState([]);
